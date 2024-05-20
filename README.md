@@ -20,4 +20,20 @@ Efficiency:
 Custom handling of data without relying on standard libraries for sorting and list operations.
 Optimized for memory and runtime efficiency.
 
+## Usage
+1. Ensure your input text files are placed in the `inputs` directory.
+2. Run the script:
+
+```bash
+python3 processor.py
+```
+
+The script will read each `.txt` file in the `inputs` directory, process the integers, and save the results in the `results` directory with `_results.txt` appended to the original filename.
+
+### Main Execution
+- Sets the input and output folder paths.
+- Creates an instance of `UniqueInt`.
+- Processes each `.txt` file in the input folder and writes the result to the output folder.
+- Logs the processing time for each file.
+
 
